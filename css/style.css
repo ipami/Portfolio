@@ -1,0 +1,395 @@
+/*Estética Geral*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/*Alterações do cabeçalho*/
+
+header {
+    background-image: url(../images/backheader.png);
+    /*background-color: black;*/
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+
+ul {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #c94888;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+li {
+    display: inline;
+
+}
+
+a:hover {
+    color: #8224d4;
+    text-shadow: 0px 0px 5px rgb(110, 14, 106);
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+
+.logo {
+    float: left;
+    width: 100%;
+    margin-top: 15%;
+    display: block;
+
+}
+
+.logo img {
+    width: 400px;
+}
+
+/*CONTEÚDO DO SITE -  Quem sou*/
+
+.quemsou {
+    background-image: url("../images/backgroundt4.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgquemsou {
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 25%;
+
+}
+
+.textoquemsou {
+    padding: 20px;
+    background-color: rgba(210, 84, 121, .8);
+    float: right;
+    width: 35%;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+
+/*CONTEÚDO DO SITE -  Hobbies*/
+
+.hobbies {
+    background-color: #000;
+    width: 100%;
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.textohobbies {
+    padding: 20px;
+    background-color: rgba(130, 36, 212, .8);
+    float: left;
+    width: 35%;
+    text-align: right;
+    margin-top: 12%;
+    margin-left: -25%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imghobbies {
+    float: right;
+    width: 35%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+/*CONTEÚDO DO SITE -  Formulário de contato*/
+
+
+.formdecontato {
+    background-image: url("../images/backgroundt1.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-size: cover;
+}
+
+.formdecontato h2 {
+    display: block;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #c94888;
+}
+
+form {
+    margin-left: 10%;
+    color: #c94888;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.labeldoform {
+    margin-right: 2%;
+    display: block;
+}
+
+input {
+    width: 88%;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: black;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 88%;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+#botao {
+    font-size: 18px;
+    font-weight: 900;
+    background: #c94888;
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-right: 11%;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+#botao:hover {
+    background: #8224d4;
+    box-shadow: insert 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-trasition: 1s;
+}
+
+/*Rodapé*/
+
+
+footer {
+    background-color: #c94888;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.icondecontato {
+    margin-right: 10%;
+    width: 40%;
+    height: 100%;
+    float: right;
+    text-align: right;
+
+}
+
+footer img {
+    width: 40px;
+    margin-left: 3%;
+    margin-top: 7px;
+    margin-right: -7%;
+    padding: 0;
+
+}
+
+.textodofooter {
+    float: left;
+    margin-top: 10px;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+/*CONTEÚDO DO SITE -  Parte direcionada para a responsividade do site*/
+
+@media screen and (max-width: 1573px) {
+
+    .textohobbies {
+        padding: 20px;
+        background-color: rgba(130, 36, 212, .8);
+        float: left;
+        width: 35%;
+        text-align: right;
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    header {
+        height: 500px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .quemsou {
+        height: auto;
+        margin-bottom: 0;
+        padding-bottom: 20%;
+    }
+
+
+    .imgquemsou {
+        float: none;
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    .textoquemsou {
+        float: none;
+        width: 73%;
+        margin-left: 10%;
+        text-align: justify;
+        margin-top: 5%;
+        margin-right: 10%;
+
+    }
+
+    .hobbies {
+        padding-top: 20%;
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .textohobbies {
+        float: none;
+        width: 73%;
+        margin-left: 10%;
+        text-align: justify;
+        margin-top: -10%;
+        margin-right: 10%;
+    }
+
+    .imghobbies {
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    footer {
+        height: 80px;
+        padding-top: 1%;
+        text-align: center;
+    }
+
+    .icondecontato {
+        margin-right: 10%;
+        width: 90%;
+        height: 40px;
+        float: none;
+        text-align: center;
+    }
+
+
+
+    footer img {
+        width: 40px;
+        margin-left: 3%;
+        margin-right: -7%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+
+    .textodofooter {
+        float: none;
+        margin-right: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+.logo img{
+
+width: 300px;
+}
+
+header {
+    height: 350px;
+}
+
+
+
+}
+
+
