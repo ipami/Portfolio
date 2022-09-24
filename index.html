@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Paloma Avelino</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<!--Cabeçalho-->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#idquemsou">QUEM SOU </a></li>
+                <li><a href="index.html#idhobbies">HOBBIES</a></li>
+                <li><a href="index.html#idcontato">CONTATO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+<!--Corpo da página-->
+    <main class="container">
+        <div class="quemsou">
+            <img class="imgquemsou" src="images/fotoquemsou.png">
+            <div class="textoquemsou">
+                <h2 id="idquemsou">Quem sou</h2>
+                <p>Olá! Seja bem vindo ao meu portfólio! Me chamo Paloma e atualmente tenho 25 anos. Tenho formação
+                    técnica em Mecânica Industrial, porém minhas experiências profissionais se resumem à área
+                    administrativa/financeira. Atualmente estou cursando o primeiro semestre da graduação em Sistemas da
+                    Informação, e estou em busca de minha primeira oportunidade na área. Moro na capital do Rio de
+                    Janeiro, e sou mãe de muitas plantas e de um cachorrinho lindo chamado Loki. Fique à vontade para
+                    conhecer esse site, e agradeço desde já a visita.
+
+                    Até a próxima =)</p>
+
+            </div>
+        </div>
+        <div class="hobbies">
+
+            <div class="textohobbies">
+                <h2 id="idhobbies">Hobbies</h2>
+                <p>Cosplayer/cosmaker aposentada e jogadora de RPG nas poucas horas vagas. Aspirante a corredora, porém
+                    completamente sedentária. Por ser naturalmente fã de
+                    trabalhos manuais, meus hobbies também incluem cozinhar, costurar, fazer amigurumis (ursinhos de
+                    crochê), cuidar de minhas plantas (e planejar minha futura coleção de suculentas). Também sou uma
+                    leitora assídua, e atualmente estou em um pequeno projeto pessoal que consiste na leitura de todos
+                    os livros que foram adaptados em filmes/séries/animações, cuja versão cinematográfica eu já tenha
+                    assistido.</p>
+
+
+            </div>
+            <img class="imghobbies" src="images/hobbies.png">
+        </div>
+        <div class="formdecontato">
+            <h2 id="idcontato">Entre em contato!</h2>
+            <form>
+                <label for="nomecompleto" class="labeldoform">Nome:</label>
+                <input type="text" id="nomecompleto" name="nomecompleto" required><br><br>
+                <label for="telefone" class="labeldoform">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+                <label for="email" class="labeldoform">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem" class="labeldoform">Deixe sua mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="9" cols="50" required></textarea>
+                <input type="submit" value="Enviar" id="botao">
+            </form>
+
+        </div>
+    </main>
+
+<!--Rodapé-->
+    
+    <footer>
+        <div class="textodofooter">
+            <p>Criado por: Paloma Avelino </p>
+        </div>
+        <div class="icondecontato">
+            <a href="https://www.instagram.com/morganlefaay/"><img src="images/insta.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/paloma-avelino-627a841b7/"><img src="images/linkedin.png"
+                    alt="linkedin"></a>
+            <a href="https://github.com/palomaavelino"><img src="images/github.png" alt="github"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
